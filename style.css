@@ -1,36 +1,245 @@
-nav{
-background-color: white;
-display: flex;
-justify-content: space-between;
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
-.left-nav{
+
+.left-nav {
     display: flex;
 }
-.left-nav ul{
-    width: 100%; 
+
+.left-nav ul {
+    width: 100%;
     list-style: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     gap: 20px;
+    padding-left: 10px;
 }
-nav li{
+
+ul li a {
+    text-decoration: none;
+}
+
+nav li {
     height: 50px;
     display: flex;
-    
+
 }
-nav a{
+
+nav a {
     height: 100%;
     display: flex;
     color: grey;
 }
-nav img{
+
+nav img {
     width: 60px;
     height: 50px;
 
 }
-.right-nav{
+
+.right-nav {
     display: flex;
     justify-content: flex-end;
     /* width: 200px; */
+    +
+}
+
+.right-bar {
+    display: flex;
+    border: transparent 1px;
+}
+
+.right-bar:hover {
+    background-color: whitesmoke;
+}
+
+.profile-pic {
+    height: 50px;
+
+}
+
+.dropdown-image {
+    width: 25px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 40%;
+}
+
+.notification-bell {
+    height: 20px;
+    width: 20px;
+    margin: 12px;
+}
+
+.profile-name {
+    padding: 0;
+}
+
+.container-dashboard {
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+.left-container {
+    display: block;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 80%;
+}
+
+.first-box {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid lightgrey;
+    width: 55%;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.right-container {
+    width: 20%;
+
+}
+
+.placeholder {
+    width: 230px;
+}
+
+.first-container {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 2rem;
+    line-height: 0.5;
+
+}
+
+.Emoji1 {
+    width: 100px;
+    height: 80px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5;
+
+}
+
+.third-container {
+    line-height: 0.5;
+}
+
+.S2 {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+
+
+.S3 {
+    display: flex;
+}
+
+.statement {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+FOOTER {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn2 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn3 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn4 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn5 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn6 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn7 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn8 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn9 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn10 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn11 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn12 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn13 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn14 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn15 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.btn16 :hover {
+    color: grey;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
 }
