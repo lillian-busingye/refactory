@@ -67,7 +67,7 @@
                 <P>Continue Learning</P>
             </div>
             <div class="Container2"
-                style="display:flex; border: 2px solid lightgrey; width:50%; height: 80px; padding: 2rem; justify-content: space-between;">
+                style="display:flex; border: 0px solid lightgrey; background-color: white; width:50%;  height: 80px; padding: 2.5rem; justify-content: space-between;">
                 <div class="box1"
                     style="display: flex; justify-content: space-between; line-height: 0.5; align-items: center;">
                     <img src="/html& css.svg" alt="logo" class="logo">
@@ -76,8 +76,9 @@
                         <p>Getting Started</p>
                     </div>
                 </div>
-                <div>
-                    <button type="button" style="height: 30%; width: 100%; align-items: end;">Resume</button>
+                <div class="X">
+                    <button type="button"
+                        style="height: 30%; width: 100%; background-color:#30c8d6; border:1px solid transparent; padding: 28px; color: white; border-radius: 1px;">Resume</button>
                 </div>
             </div>
             <div class="statement" style="font-size: large;">
@@ -89,33 +90,23 @@
                 <button type="button">App</button>
             </div>
             <div class="Container3"
-                style="border: 2px solid lightgrey; padding: 2rem; width: 50%; height: 5%; display: flex; line-height: 0.5; justify-content: space-between;">
+                style="border: 0px solid lightgrey; padding: 3rem; background-color:white; width: 50%; height: 5%; display: flex; line-height: 0.5; justify-content: space-between;">
                 <div class="last-box" style="display: flex; line-height: 0.5; align-items: center;">
                     <img src="/html& css.svg" alt="logo" class="logo">
                     <P>Study HTML & CSS 1</P>
                 </div>
                 <div class="btns" style=" display:flex; align-items: flex-end; gap: 10px;">
                     <a href="#">View details ></a>
-                    <button type="button">Resume</button>
+                    <div class="B">
+                        <button type="button"
+                            style="height: 30%; background-color: #30c8d6; border:1px solid transparent; padding: 20px; color: white; width: 100%; border-radius: 1px;">Resume</button>
+                    </div>
                 </div>
             </div>
 
         </div>
         <div class="right-container">
             <P>Recent History</P>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Mon</th>
-                        <th>Tue</th>
-                        <th>Wed</th>
-                        <th>Thu</th>
-                        <th>Fri</th>
-                        <th>Sat</th>
-                        <th>Sun</th>
-                    </tr>
-                </thead>
-            </table>
             <img src="/newcalender.jpg" alt="blankcalender" class="placeholder">
             <P>Language Course Achievements</P>
             <div class="buttons">
@@ -207,7 +198,12 @@
         </div>
     </div>
     <footer class="FOOTER">
-        <img src="/img/new logo.png" alt="refactory" class="footer-logo" style="width: 20%;">
+        <div>
+            <img src="/img/new logo.png" alt="refactory" class="footer-logo" style="width: 30%;">
+            <p>Check Out Our App</p>
+            <img src="/applestore.svg" alt="applestore"> <img src="googleplay.svg" alt="googleplay">
+            <p class="paragraph" style="font-size: 10px;">@ 2014 Progate.Inc</p>
+        </div>
         <ul>
             <h1>SERVICES</h1>
             <li>Courses</li>
@@ -228,4 +224,7 @@
             <li>Facebook</li>
             <li>Twitter</li>
         </ul>
+        <a href="button" class="last-line"
+            style="background-color: rgb(233, 69, 123); height: 30px; padding: 5px; border-radius: 3px; align-self: self-end; color:whitesmoke;"><img
+                src="/message.jpg" alt="message" class="msg" style="width: 20px;">Contact us!</a>
     </footer>
